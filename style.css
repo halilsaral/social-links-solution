@@ -1,0 +1,83 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+  }
+
+.personCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+.personInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.personal h5 {
+    margin-top: -10px;
+    color: #b4cc61;
+}
+.personal p {
+    font-style: italic;
+    color: #a4a2a2;
+}
+.links {
+    display: flex;
+    flex-direction: column; /* Linkleri alt alta sıralamak için */
+    align-items: center; /* Linkleri ortala */
+  }
+  
+  .links div {
+    margin: 10px 0;
+    width: 300px;
+  }
+  
+  .links a {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    background-color: #3b3b3b; /* Koyu gri buton rengi */
+    color: #fff; /* Beyaz metin */
+    padding: 10px 20px;
+    border-radius: 10px; /* Buton köşeleri yuvarla */
+    width: 100%; /* Butonu tam genişlikte yap */
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .links a:hover {
+    background-color: #6e6e6e; /* Hover sırasında daha açık renk */
+  }
+
+
